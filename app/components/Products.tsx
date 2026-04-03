@@ -11,60 +11,60 @@ const productCategories = [
     title: "TMT Bars",
     image: "/images/tmt-bars.jpg",
     imageAlt: "TMT steel bars 6 meters D8 D10 D12 D16",
-    items: ["D8 (6m) - KES 240", "D10 (6m) - KES 400", "D12 (6m) - KES 560", "D16 (6m) - KES 950"],
+    items: ["D8 (6m)  ", "D10 (6m) ", "D12 (6m) ", "D16 (6m) "],
     color: "from-blue-500 to-blue-600",
     badge: "Best Seller",
-    price: "From KES 240"
+    price: "DM for price"
   },
   {
     icon: <Package size={40} />,
     title: "Mabati (Roofing Sheets)",
     image: "/images/mabati-roofing.jpg",
     imageAlt: "Aluzinc and Maisha roofing sheets",
-    items: ["Aluzinc 2m 32g - KES 500", "Aluzinc 3m 32g - KES 760", "Maisha Aluzinc 2.5m 30g - KES 750", "Box Profile Coloured 3m 30g - KES 1380"],
+    items: ["Aluzinc 2m 32g ", "Aluzinc 3m 32g", "Maisha Aluzinc 2.5m 30g ", "Box Profile Coloured 3m 30g "],
     color: "from-orange-500 to-orange-600",
     badge: "Hot Deal",
-    price: "From KES 500"
+    price: "DM for price"
   },
   {
     icon: <Wrench size={40} />,
-    title: "Tube Rejects",
+    title: "Tube Second Grade",
     image: "/images/tube-rejects.jpg",
     imageAlt: "Square tubes and RHS pipes",
     items: ["Square Tube ¾", "Square Tube 1\"", "RHS", "Square Tube 1½×1½"],
     color: "from-gray-600 to-gray-700",
     badge: "Limited Stock",
-    price: "Call for Price"
+    price: "DM for price"
   },
   {
     icon: <HardHat size={40} />,
     title: "Weldmesh",
     image: "/images/weldmesh.jpg",
     imageAlt: "Welded mesh rolls and sheets",
-    items: ["Light (Reject) - KES 290", "Medium (Reject) - KES 400", "Heavy (Reject) - KES 550", "Heavy - KES 850"],
+    items: ["Light (Second Grade)", "Medium (Second Grade)", "Heavy (Second Grade)", "Heavy (Second Grade)"],
     color: "from-green-500 to-green-600",
     badge: "Wholesale",
-    price: "From KES 290"
+    price: "DM for price"
   },
   {
     icon: <Shield size={40} />,
     title: "Nails",
     image: "/images/nails.jpg",
     imageAlt: "Roofing and normal nails",
-    items: ["Roofing Nail - KES 250/kg", "Normal Nails - KES 180/kg", "Wholesale (50kg bag)"],
+    items: ["Roofing Nail ", "Normal Nails", "Wholesale (50kg bag)"],
     color: "from-red-500 to-red-600",
     badge: "Bulk Discount",
-    price: "From KES 180/kg"
+    price: "DM for price"
   },
   {
     icon: <Truck size={40} />,
     title: "Accessories",
     image: "/images/accessories.jpg",
     imageAlt: "Cutting discs, grinding discs and accessories",
-    items: ["Cutting Discs @ KES 200", "Grinding Discs @ KES 200", "Barbed Wire", "Chainlink"],
+    items: ["Cutting Discs ", "Grinding Discs ", "Barbed Wire", "Chainlink"],
     color: "from-purple-500 to-purple-600",
     badge: "New Arrivals",
-    price: "From KES 200"
+    price: "DM for prices"
   }
 ]
 

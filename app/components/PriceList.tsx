@@ -8,68 +8,68 @@ const priceCategories = [
   {
     name: "TMT Bars (6 meters)",
     items: [
-      { product: "D8", price: "KES 240" },
-      { product: "D10", price: "KES 400" },
-      { product: "D12", price: "KES 560" },
-      { product: "D16", price: "KES 950" }
+      { product: "D8" },
+      { product: "D10"},
+      { product: "D12" },
+      { product: "D16"}
     ]
   },
   {
     name: "Aluzinc Mabati",
     items: [
-      { product: "2m 32g", price: "KES 500" },
-      { product: "3m 32g", price: "KES 760" },
-      { product: "2.5m 32g", price: "KES 630" }
+      { product: "2m 32g" },
+      { product: "3m 32g"},
+      { product: "2.5m 32g"}
     ]
   },
   {
     name: "Maisha Aluzinc",
     items: [
-      { product: "2.5m 30g", price: "KES 750" },
-      { product: "Maisha Reject 2.5m 30g", price: "KES 600" },
-      { product: "Maisha Reject (Bambuka) 3m 30g", price: "KES 650" },
-      { product: "Maisha Aluzinc 3m 30g", price: "KES 900" }
+      { product: "2.5m 30g" },
+      { product: "Maisha Reject 2.5m 30g" },
+      { product: "Maisha Reject (Bambuka) 3m 30g" },
+      { product: "Maisha Aluzinc 3m 30g" }
     ]
   },
   {
     name: "Nyumba Brand",
     items: [
-      { product: "Nyumba Almasi Second Grade 3m 30g", price: "KES 800" },
-      { product: "Nyumba Second Grade 3m 32g", price: "KES 700" }
+      { product: "Nyumba Almasi Second Grade 3m 30g"},
+      { product: "Nyumba Second Grade 3m 32g"}
     ]
   },
   {
     name: "Dumuzas",
     items: [
-      { product: "2m 30g", price: "KES 720" },
-      { product: "2m 28g", price: "KES 800" }
+      { product: "2m 30g"},
+      { product: "2m 28g" }
     ]
   },
   {
     name: "Box Profile",
     items: [
-      { product: "Coloured 30g 3m", price: "KES 1380" },
-      { product: "Coloured 30g 2m", price: "KES 950" },
-      { product: "None Colour 2.5m 30g", price: "KES 960" },
-      { product: "Mate Finish 3m 30g", price: "KES 1430" }
+      { product: "Coloured 30g 3m"},
+      { product: "Coloured 30g 2m"},
+      { product: "None Colour 2.5m 30g"},
+      { product: "Mate Finish 3m 30g" }
     ]
   },
   {
     name: "Full Colour Options",
     items: [
-      { product: "Maisha Aluzinc Full Colour 3m 30g", price: "KES 1180" },
-      { product: "Maisha Aluzinc Full Colour 2.5m 30g", price: "KES 980" },
-      { product: "Maisha Aluzinc Full Colour 2m 30g", price: "KES 780" }
+      { product: "Maisha Aluzinc Full Colour 3m 30g" },
+      { product: "Maisha Aluzinc Full Colour 2.5m 30g" },
+      { product: "Maisha Aluzinc Full Colour 2m 30g" }
     ]
   },
   {
     name: "Other Products",
     items: [
-      { product: "Plane Sheet 30g 2m", price: "KES 800" },
-      { product: "MS Plate 18g", price: "KES 2300" },
-      { product: "Cutting/Grinding Disc", price: "KES 200" },
-      { product: "Roofing Nail (per kg)", price: "KES 250" },
-      { product: "Normal Nails (per kg)", price: "KES 180" }
+      { product: "Plane Sheet 30g 2m" },
+      { product: "MS Plate 18g" },
+      { product: "Cutting/Grinding Disc" },
+      { product: "Roofing Nail (per kg)" },
+      { product: "Normal Nails (per kg)" }
     ]
   }
 ]
@@ -118,7 +118,7 @@ export default function PriceList() {
                       {category.items.map((item, itemIdx) => (
                         <tr key={itemIdx} className="border-b border-gray-100 last:border-0">
                           <td className="py-2 text-gray-700">{item.product}</td>
-                          <td className="py-2 text-right font-semibold text-secondary">{item.price}</td>
+                        {/*  <td className="py-2 text-right font-semibold text-secondary">{item.price}</td>*/}
                         </tr>
                       ))}
                     </tbody>
